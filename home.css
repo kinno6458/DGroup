@@ -1,0 +1,45 @@
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.margin {
+    margin: 30px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img2 {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    background-image: url("img/haikei1.jpg");
+}
+main {
+    text-align: center;
+}
+.youso {
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+/* img {
+    background-size: cover;
+} */

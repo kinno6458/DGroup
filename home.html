@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D開発</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        body {
+            /* 背景の色を指定する場合 */
+            background-color: #f0f0f0;
+
+            /* 背景に画像を使用する場合 */
+            background-image: url('img/haikei1.jpg');
+            /* 背景画像の繰り返しを指定（repeat, no-repeatなど） */
+            background-repeat: repeat;
+
+            /* 背景の大きさや位置を指定する場合 */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="home.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#1">魅力</a>
+                <a class="nav-item nav-link" href="#2">自己紹介</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header>
+        <h1>岩手県観光スポット</h1>
+        <h1>～出かけよう、自然と歴史が熱い街～</h1>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/hiraizumi.jpg" class="d-block w-100" style="height: 600px;" alt="umi1">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hiraizumi.jpg" class="d-block w-100" style="height: 600px;" alt="umi2">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hiraizumi.jpg" class="d-block w-100" style="height: 600px;" alt="umi3">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hiraizumi.jpg" class="d-block w-100" style="height: 600px;" alt="umi4">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <div class="margin">
+            <h2 id="1">岩手の魅力</h2>
+            <div class="flex">
+                <div class="youso">
+                    <a href="#">
+                        <h2>食</h2>
+                        <img class="img2" src="img/wankosoba.jpg" alt="img">
+                    </a>
+                </div>
+                <div class="youso">
+                    <a href="tradition.html">
+                        <h2>伝統文化</h2>
+                        <img class="img2" src="img/sansa.jpg" alt="img">
+                    </a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="youso">
+                    <a href="#">
+                        <h2>名所</h2>
+                        <img class="img2" src="img/hiraizumi.jpg" alt="img">
+                    </a>
+                </div>
+                <div class="youso">
+                    <a href="#">
+                        <h2>有名人</h2>
+                        <img class="img2" src="img/ootani.jpg" alt="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="margin">
+            <h2 id="2">自己紹介</h2>
+            <div class="flex">
+                <div class="youso">
+                    <a href="kinno-writer.html">
+                        <h2>金野勇太郎</h2>
+                        <img class="img2" src="img/wankosoba.jpg" alt="img">
+                    </a>
+                </div>
+                <div class="youso">
+                    <a href="#">
+                        <h2>伝統文化</h2>
+                        <img class="img2" src="img/sansa.jpg" alt="img">
+                    </a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="youso">
+                    <a href="#">
+                        <h2>名所</h2>
+                        <img class="img2" src="img/hiraizumi.jpg" alt="img">
+                    </a>
+
+                </div>
+                <div class="youso">
+                    <a href="#">
+                        <h2>有名人</h2>
+                        <img class="img2" src="img/ootani.jpg" alt="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.yoko {
+    display: flex;
+}
+img {
+    margin: 20px 20px 0 20px;
+    width: 500px;
+    height: 350px;
+}
+.text {
+    text-align: center;
+    width: 60%;
+
+}
+.number {
+    margin-top: 100px;
+}
+
+.name{
+    margin-top: 100px;
+}
+.sukima {
+    margin: 2rem;
+}
+.center {
+    text-align: center;
+}
+h4, p {
+    text-align: left;
+}
+main {
+    margin: 3rem;
+}
+.box {
+    margin-bottom: 20px;
+}
+.line-under {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    
+}
+span {
+    font-size: 21px;
+}
