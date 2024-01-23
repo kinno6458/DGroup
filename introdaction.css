@@ -41,3 +41,9 @@ main {
 span {
     font-size: 21px;
 }
+#kinno{
+    background-image: url(img/kinno-background.jpg);
+    background-size: cover; /* 画面いっぱいに拡大表示 */
+  background-repeat: no-repeat; /* 繰り返し表示しない */
+  background-position: center; /* 画像を中央に配置 */
+}
