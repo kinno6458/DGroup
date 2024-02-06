@@ -44,6 +44,24 @@ span {
 #kinno{
     background-image: url(img/kinno-background.jpg);
     background-size: cover; /* 画面いっぱいに拡大表示 */
-  background-repeat: no-repeat; /* 繰り返し表示しない */
-  background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 繰り返し表示しない */
+    background-position: center; /* 画像を中央に配置 */
+}
+#yuto{
+    background-image: url(img/yuto-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rei{
+    background-image: url(img/rei-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ryo{
+    background-image: url(img/ryo-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

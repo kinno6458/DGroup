@@ -1,0 +1,23 @@
+.sukima {
+    margin: 50px 200px 50px 200px;
+}
+.yoko {
+    display: flex;
+}
+.line-under {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.y-img {
+    height: 30%;
+    width: 30%;
+    margin: 1rem;
+}
+.text {
+    width: 70%;
+    margin: 1rem;
+}
+img {
+    width: 100%;
+}
